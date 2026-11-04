@@ -33,13 +33,16 @@ import {
    🔥 আপনার Firebase কনফিগ এখানে বসান
    ============================================ */
 const firebaseConfig = {
-  apiKey: "AIzaSyATvjyLBowmyyak2nzBUxXL8271bEqt44c", // আপনার আসল API Key
-  authDomain: "bakihasib-4fe8a.firebaseapp.com",
-  projectId: "bakihasib-4fe8a",
-  storageBucket: "bakihasib-4fe8a.firebasestorage.app",
-  messagingSenderId: "123456789", // আপনার আসল Sender ID
-  appId: "1:123456789:web:abcdef" // আপনার আসল App ID
+  apiKey: "AIzaSyATvjyLBowmyyak2nzBUxXL8271bEqt44c",
+  authDomain: "bakihisab-4fe8a.firebaseapp.com",
+  databaseURL: "https://bakihisab-4fe8a-default-rtdb.asia-southeast1.firebasedatabase.app",
+  projectId: "bakihisab-4fe8a",
+  storageBucket: "bakihisab-4fe8a.firebasestorage.app",
+  messagingSenderId: "814241968042",
+  appId: "1:814241968042:web:464f2ed31dfe9ce85d05d3",
+  measurementId: "G-7CRWC58DVX"
 };
+
 
 const app = initializeApp(firebaseConfig);
 const auth = getAuth(app);
