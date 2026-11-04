@@ -65,7 +65,7 @@ let currentCustomerId = null;
 let stripePayments = null;
 let adminGrowthChart = null;
 
-const ADMIN_SECRET_KEY = 'Cellnetbd@Jamil1977'; // 🔑 এটা বদলান!
+const ADMIN_SECRET_KEY = 'BAKI-ADMIN-2024'; // 🔑 এটা বদলান!
 
 /* ============================================
    হেল্পার
